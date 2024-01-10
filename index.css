@@ -464,8 +464,12 @@ button:hover{
   display: none;
 }
 
+#cle a{
+  margin: 3rem;
+  color:white;
+}
 #cle{
-  padding-bottom: 3rem;
+  margin: 3rem;
 }
 
 .apparttitle2En {
