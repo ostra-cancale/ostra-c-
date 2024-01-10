@@ -22,6 +22,9 @@ const apparttitle2Eng = document.querySelector(".apparttitle2En");
 const apparttitle2Fra = document.querySelector(".apparttitle2");
 
 
+const dlEng = document.querySelector("#dlEn");
+const dlFra = document.querySelector("#dlFr");
+
 
 
 
@@ -124,6 +127,16 @@ buttonLangChange.addEventListener("click", () => {
     }
   });
 
+
+  buttonLangChange.addEventListener("click", () => {
+    if (getComputedStyle(dlEng).display != "none") {
+      dlEng.style.display = "none";
+      dlFra.style.display = "flex";
+    } else {
+     dlEng.style.display = "flex";
+      dlFra.style.display = "none";
+    }
+  });
 
 
 

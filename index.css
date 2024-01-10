@@ -427,6 +427,8 @@ button:hover{
 .apparttitleEn{
   display: none;
 }
+
+
 #privateParkEn{
   display: none;
 }
@@ -462,6 +464,9 @@ button:hover{
   display: none;
 }
 
+#cle{
+  padding-bottom: 3rem;
+}
 
 .apparttitle2En {
   display: none;
@@ -607,16 +612,26 @@ button:hover{
 
 dl{
   list-style-type:disc;
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 80vw;
+  padding:2rem;
+}
+
+#dlEn{
+  display: none;
 }
 
 dt{
   font-size: 30px;
   font-weight: 600;
-  color:#594821;
+  color:#413416;
 }
 
 dd{
-  color:#d2b82e;
+  color:#9d8a28;
+  padding:1rem;
 }
 
 .differentsAcces{
