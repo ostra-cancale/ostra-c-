@@ -373,22 +373,33 @@ button:hover{
   
 }
 
-.bigButton {
+.bigButton,
+.bigButtonEn {
   width:30rem;
   height:10rem;
   background-color: transparent;
   border: 3px #fff solid;
   font-size: 30px;
-  font-weight: 600;
-  
+  font-weight: 600; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.bigButton a {
+
+
+.bigButton a,
+.bigButtonEn a {
   color:#fff;
 }
 
-.bigButton:hover{
+.bigButton:hover,
+.bigButtonEn:hover{
   background-color: rgba(66, 86, 177, 0.318);
   transition: 0.8s ease-in-out;
+}
+
+.bigButtonEn{
+  display: none;
 }
 
 .langIcon {
@@ -402,7 +413,8 @@ button:hover{
 
 /* appart ************/
 
-.apparttitle{
+.apparttitle,
+.apparttitleEn{
   font-size:40px;
   text-transform: uppercase;
   padding:1rem;
@@ -412,8 +424,17 @@ button:hover{
   font-family: "playfair display";
 }
 
+.apparttitleEn{
+  display: none;
+}
+#privateParkEn{
+  display: none;
+}
 
-.apparttitle2{
+/****60mcarrés*/
+
+.apparttitle2,
+.apparttitle2En{
   font-size:30px;
   text-transform: uppercase;
   padding:1rem;
@@ -425,7 +446,8 @@ button:hover{
   
 }
 
-.appartpres{
+.appartpres,
+.appartpresEn{
   padding:2rem;
   color:#18206d;
   font-size: 21px;
@@ -436,7 +458,14 @@ button:hover{
   font-family: "playfair display";
 }
 
+.appartpresEn{
+  display: none;
+}
 
+
+.apparttitle2En {
+  display: none;
+}
 
 .bedtitle{
   font-size:21px;
