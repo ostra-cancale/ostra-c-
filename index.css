@@ -19,6 +19,7 @@ header {
   box-shadow: 0 5px 10px rgb(55, 55, 55);
   list-style: none; 
   text-decoration: none;
+  width: 100vw;
 }
 
 #info_line {
@@ -274,6 +275,7 @@ button:hover{
 #presentation {
   columns: 2 auto;
   margin: 1rem;
+  max-width: 100vw;
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -797,6 +799,7 @@ footer {
   margin-top: 5rem;
   border-top: 3px #29407a solid;
   border-top: 7px solid #18206d;
+  max-width: 100vw;
 }
 
 
@@ -822,6 +825,7 @@ footer {
 
 iframe {
   margin: 1rem;
+  max-width: 90vw;
 }
 
 #infos_contact {
@@ -865,6 +869,8 @@ iframe {
 }
 
 
+
+
 @media (max-width: 480px) and (orientation: portrait) {
 
 #firstnav ul{
@@ -886,10 +892,34 @@ iframe {
 #presentationtext{
   text-align: center;
 }
-
+#footer_content{
+  display: flex;
+  flex-direction: column;
+}
 }
 
-@media (max-width: 850px) and (orientation: landscape) {
+@media (max-width: 850px) and (orientation: portrait) {
+  
+  #firstnav ul{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #pointsforts ul{
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+  }
+  
+  #presentation{
+    display: flex;
+    flex-direction: column;
+  }
+    
+  #presentationtext{
+    text-align: center;
+  }
+  
   
 
 }
