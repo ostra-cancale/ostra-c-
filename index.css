@@ -53,6 +53,9 @@ header {
   color: white;
 }
 
+#button-resa a:active{
+  color: white;
+}
 #button-resa a:hover,
 #button-resaEn a:hover {
   cursor: pointer;
