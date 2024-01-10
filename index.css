@@ -15,11 +15,12 @@ header {
   background-size: cover;
   color: white;
   height: auto;
+  
   /* border-bottom: solid 7px #d2b82e; */
   box-shadow: 0 5px 10px rgb(55, 55, 55);
   list-style: none; 
   text-decoration: none;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 #info_line {
@@ -203,7 +204,31 @@ nav a {
   justify-content: center;
   align-items: end;
 }
+#catchphraseContact{
+  text-transform: uppercase;
+  background-image: url(./img/photograph/first/15.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  height:32rem;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
 
+#catchphraseTarifs{
+  text-transform: uppercase;
+  background-image: url(./img/photograph/first/4.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  height:32rem;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
 /* #catchtext{
   padding:0.7rem;
   color: white;
@@ -339,7 +364,8 @@ button:hover{
   justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./img/photograph/second/10.JPG");
   height:50rem;
-  width:100vw;
+  width: 100%;
+  max-width:100vw;
   background-position: 10%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -428,7 +454,8 @@ button:hover{
 #vuemerImg{
   background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(./img/photograph/second/11.JPG);
   height:30rem;
-  width: 100vw;
+  width:100%;
+  max-width: 100vw;
   background-position: 30%;
   background-attachment: fixed;
 }
@@ -437,12 +464,12 @@ button:hover{
   margin-top: 3rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./img/photograph/communs/3.JPG);
   height:30rem;
-  width: 100vw;
+  width:100%;
+  max-width: 100vw;
   background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  width:100vw;
   background-position: 10%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -748,12 +775,12 @@ dd{
   margin-top: 3rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./img/photograph/communs/1.JPG);
   height:40rem;
-  width: 100vw;
+  max-width: 100vw;
   background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  width:100vw;
+  width:100%;
   background-position: 10%;
   background-size: cover;
   background-repeat: no-repeat;
