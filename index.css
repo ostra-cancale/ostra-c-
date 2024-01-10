@@ -47,10 +47,14 @@ header {
   font-style: normal;
   font-weight: 600;
   letter-spacing: 0.3rem;
+  color:white;
+}
+#button-resa a{
+  color: white;
 }
 
-#button-resa:hover,
-#button-resaEn:hover {
+#button-resa a:hover,
+#button-resaEn a:hover {
   cursor: pointer;
   color: #d2b82e;
   transition: 0.6s;
@@ -250,6 +254,7 @@ main{
 
 main a {
   text-decoration: none;
+  color:white;
 }
 
 #pres{
